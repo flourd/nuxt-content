@@ -277,10 +277,10 @@
   dependencies:
     mime "^3.0.0"
 
-"@docus/base@npm:@docus/base-edge@3.0.0-7171bd0":
-  version "3.0.0-7171bd0"
-  resolved "https://registry.yarnpkg.com/@docus/base-edge/-/base-edge-3.0.0-7171bd0.tgz#39e141ef667705eaef8806af9b245358c2ec7441"
-  integrity sha512-8Jnub2/SE05btbn9hW2IAchwHqJDAm7ZX8mWy4/u5PsSeg9eHQN3RA5dscHxE71TjOKy/2982T3GxqmQa828AQ==
+"@docus/base@npm:@docus/base-edge@3.0.0-7a3e985":
+  version "3.0.0-7a3e985"
+  resolved "https://registry.yarnpkg.com/@docus/base-edge/-/base-edge-3.0.0-7a3e985.tgz#b45cfb65ca3e334505c0a11e0a36d6f47d9f1d21"
+  integrity sha512-ZQu9IxoIWaFl2nsiJOMXuI/E6839DT9qQDBAT7RF1YUQ6y39rRlbJukCfjSWlfh+xtB6DbZ9ekecrpLaU4jUWA==
   dependencies:
     "@nuxt/content" "npm:@nuxt/content-edge@latest"
     "@nuxthq/admin" "npm:@nuxthq/admin-edge@latest"
@@ -289,11 +289,11 @@
     nuxt "^3.0.0-rc.3"
 
 "@docus/docs-theme@npm:@docus/docs-theme-edge@latest":
-  version "3.0.0-7171bd0"
-  resolved "https://registry.yarnpkg.com/@docus/docs-theme-edge/-/docs-theme-edge-3.0.0-7171bd0.tgz#9b925b3393d2c3372409a2e5bbd672dd251a364f"
-  integrity sha512-NG84xzCuO0/oSIsyk/0MgdEP2W3XBFxjCUNxCDNzhPEuq8lkam8UeuG7MBLB1HTkqdf3bl7sB/DhQDkBSd81hA==
+  version "3.0.0-7a3e985"
+  resolved "https://registry.yarnpkg.com/@docus/docs-theme-edge/-/docs-theme-edge-3.0.0-7a3e985.tgz#f1e8ba41dfe213ecd6831ca6187ae46642897822"
+  integrity sha512-qdVYnOfDEsq5n0WO06rYVaveWBIJCD9swB8XlR7CkeRfpxwLgNupDNnwSZS7EqCmueQOYfCv1b9U4uFO6x0XAw==
   dependencies:
-    "@docus/base" "npm:@docus/base-edge@3.0.0-7171bd0"
+    "@docus/base" "npm:@docus/base-edge@3.0.0-7a3e985"
     "@docus/github" "^1.2.6"
     "@iconify/vue" "^3.2.1"
     "@nuxtjs/color-mode" "^3.0.3"
@@ -410,13 +410,12 @@
     fastq "^1.6.0"
 
 "@nuxt/content@npm:@nuxt/content-edge@latest":
-  version "2.0.0-27536545.d14a36c"
-  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.0.0-27536545.d14a36c.tgz#3a384f1d5bb78c28a926c0c8f5d4bf705ee1ba4f"
-  integrity sha512-90mwt3As3RjxkeKy2gQgb6u8DJ1XdeAFCKrFyjj9D8xrHvCMoItPifGQkJYLqdVf1LPyhk+sQj3xSp3xFhRYCg==
+  version "2.0.0-27536649.61e4b1f"
+  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.0.0-27536649.61e4b1f.tgz#07e5605f4410ced52e2840b5f33bfef5d304a985"
+  integrity sha512-Bf4+t3+TH82A1TpfRUAYBWRxjbaf4FZr1KQrsc0DLmqyo7LHi0y/2LR/gFnOj5p4IwgjRtptJWIr2W1cR7WPJA==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.3"
     csvtojson "^2.0.10"
-    debounce "^1.2.1"
     defu "^6.0.0"
     destr "^1.1.1"
     detab "^3.0.1"
@@ -436,7 +435,7 @@
     micromark-util-character "^1.1.0"
     ohash "^0.1.0"
     parse-entities "^4.0.0"
-    pathe "^0.2.0"
+    pathe "^0.3.0"
     perfect-debounce "^0.1.3"
     property-information "^6.1.1"
     rehype-external-links "^1.0.1"
@@ -453,13 +452,12 @@
     shiki-es "^0.1.2"
     slugify "^1.6.5"
     stringify-entities "^4.0.2"
-    ufo "^0.8.3"
+    ufo "^0.8.4"
     unctx "^1.1.4"
     unified "^10.1.2"
     unist-builder "^3.0.0"
     unist-util-position "^4.0.3"
     unist-util-visit "^4.1.0"
-    unist-util-visit-parents "^5.1.0"
     unstorage "^0.4.1"
     ws "^8.6.0"
 
@@ -517,11 +515,11 @@
     untyped "^0.4.4"
 
 "@nuxt/kit@npm:@nuxt/kit-edge@latest":
-  version "3.0.0-rc.3-27536227.36512d0"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-rc.3-27536227.36512d0.tgz#d7fb4168ff21116655479c94da9c4a8e4b07b73d"
-  integrity sha512-olLMVnlRgOYmfVmY4RbZvF8+BzwEyNAbiABzQZ1Zk3WDiefm4SLSBdLcA2NqCJp9QlLqTNSO6gUZCxci5fX4Tg==
+  version "3.0.0-rc.3-27536597.3359b3b"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-rc.3-27536597.3359b3b.tgz#e15b5d25bf0618ef6113e7f6180636c458a23e8b"
+  integrity sha512-vQWAzbsHk8sP0tGXLfKX6EfnR6cb6sG4CJLcj2sptuyKwnXrHjQTfdWxKkJLqVBKq4O/8Vej9Xm9r5VLGOpNPA==
   dependencies:
-    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.0-rc.3-27536227.36512d0"
+    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.0-rc.3-27536597.3359b3b"
     c12 "^0.2.7"
     consola "^2.15.3"
     defu "^6.0.0"
@@ -537,7 +535,7 @@
     scule "^0.2.1"
     semver "^7.3.7"
     unctx "^1.1.4"
-    unimport "^0.1.9"
+    unimport "^0.2.1"
     untyped "^0.4.4"
 
 "@nuxt/postcss8@^1.1.3":
@@ -570,10 +568,10 @@
     ufo "^0.8.4"
     unimport "^0.1.9"
 
-"@nuxt/schema@npm:@nuxt/schema-edge@3.0.0-rc.3-27536227.36512d0":
-  version "3.0.0-rc.3-27536227.36512d0"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema-edge/-/schema-edge-3.0.0-rc.3-27536227.36512d0.tgz#da2f1a6861de33f0c5a7c66ff2c4802631e924fd"
-  integrity sha512-bcD93OBFSlXgsnDAsICNelrkIXRFQRAyCX+J76yqLvKwRicxD4OVB47uqT4X7W9THs998Q6CvX58G3EcEwlfxg==
+"@nuxt/schema@npm:@nuxt/schema-edge@3.0.0-rc.3-27536597.3359b3b":
+  version "3.0.0-rc.3-27536597.3359b3b"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema-edge/-/schema-edge-3.0.0-rc.3-27536597.3359b3b.tgz#5afb7e912d23c46951bd622d07037753908ccfde"
+  integrity sha512-+a/6Irx+EL2oxD+TX0Saervw3SXbr3SqFnAUE5QfTQppzG5Zf3Y9KBf+wzafB7qEDoQiCl0DWBuFVaPt+Ibt3g==
   dependencies:
     c12 "^0.2.7"
     create-require "^1.1.1"
@@ -584,7 +582,7 @@
     scule "^0.2.1"
     std-env "^3.1.1"
     ufo "^0.8.4"
-    unimport "^0.1.9"
+    unimport "^0.2.1"
 
 "@nuxt/telemetry@^2.1.3":
   version "2.1.3"
@@ -1918,11 +1916,6 @@ data-uri-to-buffer@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/data-uri-to-buffer/-/data-uri-to-buffer-4.0.0.tgz#b5db46aea50f6176428ac05b73be39a57701a64b"
   integrity sha512-Vr3mLBA8qWmcuschSLAOogKgQ/Jwxulv3RNE4FXnYWRGujzrRWQI4m12fQqRkwX06C0KanhLr4hK+GydchZsaA==
-
-debounce@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.2.1.tgz#38881d8f4166a5c5848020c11827b834bcb3e0a5"
-  integrity sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==
 
 debug@2.6.9:
   version "2.6.9"
@@ -6209,7 +6202,7 @@ unist-util-visit-parents@^4.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
 
-unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.0:
+unist-util-visit-parents@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-5.1.0.tgz#44bbc5d25f2411e7dfc5cecff12de43296aa8521"
   integrity sha512-y+QVLcY5eR/YVpqDsLf/xh9R3Q2Y4HxkZTp7ViLDU6WtJCEcPmRzW1gpdWDCDIqIlhuPDXOgttqPlykrHYDekg==
